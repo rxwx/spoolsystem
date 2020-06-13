@@ -78,7 +78,7 @@ sub SpoolSystem {
 beacon_command_register("spoolsystem", "Gets SYSTEM via spoolss",
 	"Uses named pipe impersonation to gain SYSTEM via Print Spooler.\n\n" .
 	"Use: spoolsystem <method>\n\n" .
-    "Example: spoolsystem inject\n" .
+    "Example: spoolsystem selfinject\n" .
     "Example: spoolsystem spawn" );
 
 alias spoolsystem {
