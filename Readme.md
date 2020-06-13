@@ -1,6 +1,6 @@
 # SpoolSystem
 
-SpoolSystem is a CNA script for Cobalt Strike which uses @itm4n's Print Spooler named pipe impersonation trick to gain SYSTEM privileges without creating any new process or relying on cross-process shellcode injection (if the `selfinject` method is used`).
+SpoolSystem is a CNA script for Cobalt Strike which uses @itm4n's Print Spooler named pipe impersonation trick to gain SYSTEM privileges without creating any new process or relying on cross-process shellcode injection (if the `selfinject` method is used).
 
 ## Running
 
