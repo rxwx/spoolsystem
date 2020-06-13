@@ -13,6 +13,7 @@
 
 extern HINSTANCE hAppInstance;
 
+// https://github.com/itm4n/PrintSpoofer/blob/master/PrintSpoofer/PrintSpoofer.cpp
 DWORD WINAPI TriggerNamedPipeConnection(LPWSTR lpParam)
 {
 	HRESULT hr = NULL;
